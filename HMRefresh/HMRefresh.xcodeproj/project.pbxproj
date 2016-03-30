@@ -13,6 +13,7 @@
 		0EA1000D1CAC1EEF008835FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA1000B1CAC1EEF008835FB /* Main.storyboard */; };
 		0EA1000F1CAC1EEF008835FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA1000E1CAC1EEF008835FB /* Assets.xcassets */; };
 		0EA100121CAC1EEF008835FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA100101CAC1EEF008835FB /* LaunchScreen.storyboard */; };
+		0EBD4D811CAC27C40023F2D6 /* HMRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBD4D801CAC27C40023F2D6 /* HMRefreshControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0EA100111CAC1EEF008835FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EA100131CAC1EEF008835FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EA1FFFF1CAC1EEF008835FB /* HMRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EBD4D7F1CAC27C40023F2D6 /* HMRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMRefreshControl.h; sourceTree = "<group>"; };
+		0EBD4D801CAC27C40023F2D6 /* HMRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMRefreshControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +53,8 @@
 		0EA100011CAC1EEF008835FB /* HMRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				0EBD4D7F1CAC27C40023F2D6 /* HMRefreshControl.h */,
+				0EBD4D801CAC27C40023F2D6 /* HMRefreshControl.m */,
 				0EA100051CAC1EEF008835FB /* AppDelegate.h */,
 				0EA100061CAC1EEF008835FB /* AppDelegate.m */,
 				0EA100081CAC1EEF008835FB /* ViewController.h */,
@@ -151,6 +156,7 @@
 			files = (
 				0EA1000A1CAC1EEF008835FB /* ViewController.m in Sources */,
 				0EA100071CAC1EEF008835FB /* AppDelegate.m in Sources */,
+				0EBD4D811CAC27C40023F2D6 /* HMRefreshControl.m in Sources */,
 				0EA100041CAC1EEF008835FB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +295,7 @@
 				0EA100181CAC1EEF008835FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0EA1FFFA1CAC1EEF008835FB /* Build configuration list for PBXProject "HMRefresh" */ = {
 			isa = XCConfigurationList;

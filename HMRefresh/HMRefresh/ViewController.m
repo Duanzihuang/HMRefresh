@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "HMRefreshControl.h"
 
 @interface ViewController ()
 
