@@ -15,7 +15,7 @@
 }
 
 - (void)startAnimation{
-    NSLog(@"...假装开始动画哈...");
+    NSLog(@"...假装在动画...");
 }
 
 @end

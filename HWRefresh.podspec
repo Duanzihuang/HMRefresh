@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "HWRefresh"
-  s.version      = "2.0.1"
+  s.version      = "3.2.0"
   s.summary      = "a esay way to pull and refresh!"
   s.homepage     = "https://github.com/Duanzihuang/HMRefresh"
   s.license      = "MIT"
