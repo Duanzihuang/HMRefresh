@@ -12,4 +12,6 @@
 
 - (void)beginRefreshing;
 
+- (void)startAnimation;
+
 @end

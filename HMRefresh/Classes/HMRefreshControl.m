@@ -14,4 +14,8 @@
     NSLog(@"...假装正在加载...");
 }
 
+- (void)startAnimation{
+    NSLog(@"...假装在动画...");
+}
+
 @end
