@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = "a esay way to pull and refresh!"
   s.homepage     = "https://github.com/Duanzihuang/HMRefresh"
   s.license      = "MIT"
-  s.author       = { "manager" => "manageritcast@126.com" }
+  s.author       = { "Duanzihuang" => "huangwei@itcast.cn" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/Duanzihuang/HMRefresh.git", :tag => s.version }
   s.source_files  = "HMRefresh/Classes/*.{h,m}"
