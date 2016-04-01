@@ -14,4 +14,6 @@
 
 - (void)startAnimation;
 
+- (void)abc;
+
 @end
